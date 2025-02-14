@@ -2,6 +2,10 @@
 
 This is a modern and responsive website for students interested in studying MBBS abroad. It provides details about top countries, the admission process, and an easy-to-use application form.
 
+## Features
+## Getting started
+## Technologies used
+
 ##  Features
 
 - **Responsive Design** - Works on all devices (desktop, tablet, mobile).
@@ -13,7 +17,6 @@ This is a modern and responsive website for students interested in studying MBBS
 - **Authentication Link** - Redirects users to a login page.
 - **Smooth Animations & Hover Effects** - Enhances user experience.
 
----
 
 ## Getting Started
 
@@ -23,7 +26,6 @@ This is a modern and responsive website for students interested in studying MBBS
 
 ### Running the Project
 1. **Download or Clone the Repository**
-   ```sh
    git clone https://github.com/yourusername/study-mbbs-abroad.git
 2. **Navigate to project folder**
    cd study-mbbs-abroad
@@ -31,13 +33,10 @@ This is a modern and responsive website for students interested in studying MBBS
     Simply double-click index.html, or
     Use VS Code Live Server extension for a better experience
    
----
 ## Technologies Used
 - ### HTML5
-- - Structure of the website
+ - Structure of the website
 - ### CSS3
-- - Styling with flexbox, grid, and animations
+ - Styling with flexbox, grid, and animations
 - ### JavaScript
-- - Basic interactivity and form validation
-
----
+ - Basic interactivity and form validation
