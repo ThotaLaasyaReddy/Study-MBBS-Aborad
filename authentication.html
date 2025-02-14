@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Signup</title>
+    <link rel="stylesheet" href="authentication.css">
+    <script src="authentication.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Login Form -->
+        <form id="loginForm" class="form">
+            <h2>Log in</h2>
+            <div class="input-box">
+                <label for="login-username">Username</label>
+                <input type="text" id="login-username" placeholder="Enter your username" required>
+            </div>
+            <div class="input-box">
+                <label for="login-password">Password</label>
+                <input type="password" id="login-password" placeholder="Enter your password" required>
+            </div>
+            <div class="button">
+                <input type="submit" value="Login">
+            </div>
+            <p id="loginErrorMessage" class="error-message"></p>
+            <p>Don't have an account? <a href="#" id="showSignup">Sign up</a></p>
+        </form>
+
+        <!-- Signup Form -->
+        <form id="signupForm" class="form hidden">
+            <h2>Sign Up</h2>
+            <div class="input-box">
+                <label for="signup-username">Username</label>
+                <input type="text" id="signup-username" placeholder="Create a username" required>
+            </div>
+            <div class="input-box">
+                <label for="signup-password">Password</label>
+                <input type="password" id="signup-password" placeholder="Create a password" required>
+            </div>
+            <div class="input-box">
+                <label for="signup-confirm-password">Confirm Password</label>
+                <input type="password" id="signup-confirm-password" placeholder="Confirm your password" required>
+            </div>
+            <div class="button">
+                <input type="submit" value="Sign Up">
+            </div>
+            <p id="signupErrorMessage" class="error-message"></p>
+            <p>Already have an account? <a href="#" id="showLogin">Log in</a></p>
+        </form>
+    </div>
+</body>
+</html>
