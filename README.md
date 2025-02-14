@@ -2,10 +2,6 @@
 
 This is a modern and responsive website for students interested in studying MBBS abroad. It provides details about top countries, the admission process, and an easy-to-use application form.
 
-## Features
-## Getting started
-## Technologies used
-
 ##  Features
 
 - **Responsive Design** - Works on all devices (desktop, tablet, mobile).
